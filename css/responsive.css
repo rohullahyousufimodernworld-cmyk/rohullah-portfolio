@@ -1,0 +1,13 @@
+@media (max-width:860px){
+.hero .wrap,.two{grid-template-columns:1fr}
+.visual{max-width:260px;order:-1}
+.burger{display:flex}
+.menu{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;padding:.75rem 1.25rem 1rem;background:var(--bg2);border-bottom:1px solid var(--line)}
+.menu.open{display:flex}
+.menu a{padding:.75rem 1rem}
+}
+@media (max-width:600px){
+section{padding:3rem 0}.page-head{padding:2.5rem 0 .5rem}.hero{padding:2.5rem 0 3rem}
+.orb{filter:blur(45px)}.floor,.chip{animation:none}
+.cta .btn{flex:1;text-align:center}
+}
